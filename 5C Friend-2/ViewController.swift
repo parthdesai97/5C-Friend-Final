@@ -8,18 +8,26 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+
+class ViewController: UIViewController {
+  
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
+        
+        self.navigationItem.title = "5C Friend"
+        self.navigationController?.navigationBar.tintColor = UIColor.white
+        self.navigationController?.navigationBar.barStyle = UIBarStyle.blackOpaque
+    
 
-    override func didReceiveMemoryWarning() {
+    }
+    
+        override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 

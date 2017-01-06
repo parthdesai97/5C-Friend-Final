@@ -7,14 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2403E46D1E1F0F6900CADF7F /* newsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2403E46C1E1F0F6900CADF7F /* newsViewController.swift */; };
+		2403E46F1E1F0F9300CADF7F /* theStudentLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2403E46E1E1F0F9300CADF7F /* theStudentLife.swift */; };
+		2403E4711E1F0F9E00CADF7F /* thePeel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2403E4701E1F0F9E00CADF7F /* thePeel.swift */; };
+		2403E4751E1F0FC800CADF7F /* theMuddraker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2403E4741E1F0FC800CADF7F /* theMuddraker.swift */; };
+		2424D2C71E1FA3B2001FC006 /* cmcForum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2424D2C61E1FA3B2001FC006 /* cmcForum.swift */; };
+		2424D2C91E1FA3C5001FC006 /* scrippsVoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2424D2C81E1FA3C5001FC006 /* scrippsVoice.swift */; };
+		242B55B11E170E44005D579A /* mainMenuIcons in Resources */ = {isa = PBXBuildFile; fileRef = 242B55B01E170E44005D579A /* mainMenuIcons */; };
+		242B55B31E170E49005D579A /* mapCells in Resources */ = {isa = PBXBuildFile; fileRef = 242B55B21E170E49005D579A /* mapCells */; };
+		242B55B51E170E4E005D579A /* newsLogos in Resources */ = {isa = PBXBuildFile; fileRef = 242B55B41E170E4E005D579A /* newsLogos */; };
+		242B55B71E170E5B005D579A /* schoolMaps in Resources */ = {isa = PBXBuildFile; fileRef = 242B55B61E170E5B005D579A /* schoolMaps */; };
 		2465CD051E0F68B500A674BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2465CD041E0F68B500A674BD /* AppDelegate.swift */; };
 		2465CD071E0F68B500A674BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2465CD061E0F68B500A674BD /* ViewController.swift */; };
 		2465CD0A1E0F68B500A674BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2465CD081E0F68B500A674BD /* Main.storyboard */; };
 		2465CD0C1E0F68B500A674BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2465CD0B1E0F68B500A674BD /* Assets.xcassets */; };
 		2465CD0F1E0F68B500A674BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2465CD0D1E0F68B500A674BD /* LaunchScreen.storyboard */; };
+		2465CD681E0FD9A100A674BD /* mapCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2465CD671E0FD9A100A674BD /* mapCollectionViewCell.swift */; };
+		2465CD6A1E0FD9C300A674BD /* imageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2465CD691E0FD9C300A674BD /* imageViewController.swift */; };
+		2465E3081E1062F600C0CC31 /* mapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2465E3071E1062F600C0CC31 /* mapsViewController.swift */; };
+		24C215B61E1D0E0D00DE287D /* athleticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C215B51E1D0E0D00DE287D /* athleticsViewController.swift */; };
+		24C215B81E1D0E2A00DE287D /* sagehenAthletics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C215B71E1D0E2A00DE287D /* sagehenAthletics.swift */; };
+		24C215BA1E1D0E3700DE287D /* CMSAthletics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C215B91E1D0E3700DE287D /* CMSAthletics.swift */; };
+		24C674151E179B38002B4417 /* blue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24C674131E179B38002B4417 /* blue.jpg */; };
+		24C674161E179B38002B4417 /* staghenLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C674141E179B38002B4417 /* staghenLarge.png */; };
+		24E35A8D1E1E538D00012D4B /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E35A8C1E1E538D00012D4B /* ImageScrollView.swift */; };
+		24E4D17C1E1F288C00166D08 /* linksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E4D17B1E1F288C00166D08 /* linksViewController.swift */; };
+		24E4D17E1E1F28A000166D08 /* claremontCash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E4D17D1E1F28A000166D08 /* claremontCash.swift */; };
+		24E4D1801E1F28B400166D08 /* library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E4D17F1E1F28B400166D08 /* library.swift */; };
+		24E4D1821E1F28C300166D08 /* claremontVillage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E4D1811E1F28C300166D08 /* claremontVillage.swift */; };
+		24E4D1841E1F28EA00166D08 /* laMetro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E4D1831E1F28EA00166D08 /* laMetro.swift */; };
+		24EBB0501E13F05E00F0742B /* aboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EBB04F1E13F05E00F0742B /* aboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2403E46C1E1F0F6900CADF7F /* newsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newsViewController.swift; sourceTree = "<group>"; };
+		2403E46E1E1F0F9300CADF7F /* theStudentLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = theStudentLife.swift; sourceTree = "<group>"; };
+		2403E4701E1F0F9E00CADF7F /* thePeel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thePeel.swift; sourceTree = "<group>"; };
+		2403E4741E1F0FC800CADF7F /* theMuddraker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = theMuddraker.swift; sourceTree = "<group>"; };
+		2424D2C61E1FA3B2001FC006 /* cmcForum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cmcForum.swift; sourceTree = "<group>"; };
+		2424D2C81E1FA3C5001FC006 /* scrippsVoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scrippsVoice.swift; sourceTree = "<group>"; };
+		242B55B01E170E44005D579A /* mainMenuIcons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = mainMenuIcons; path = "5C Friend-2/mainMenuIcons"; sourceTree = "<group>"; };
+		242B55B21E170E49005D579A /* mapCells */ = {isa = PBXFileReference; lastKnownFileType = folder; name = mapCells; path = "5C Friend-2/mapCells"; sourceTree = "<group>"; };
+		242B55B41E170E4E005D579A /* newsLogos */ = {isa = PBXFileReference; lastKnownFileType = folder; name = newsLogos; path = "5C Friend-2/newsLogos"; sourceTree = "<group>"; };
+		242B55B61E170E5B005D579A /* schoolMaps */ = {isa = PBXFileReference; lastKnownFileType = folder; name = schoolMaps; path = "5C Friend-2/schoolMaps"; sourceTree = "<group>"; };
 		2465CD011E0F68B500A674BD /* 5C Friend-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5C Friend-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2465CD041E0F68B500A674BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2465CD061E0F68B500A674BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +57,21 @@
 		2465CD0B1E0F68B500A674BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2465CD0E1E0F68B500A674BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2465CD101E0F68B500A674BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2465CD671E0FD9A100A674BD /* mapCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapCollectionViewCell.swift; sourceTree = "<group>"; };
+		2465CD691E0FD9C300A674BD /* imageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageViewController.swift; sourceTree = "<group>"; };
+		2465E3071E1062F600C0CC31 /* mapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapsViewController.swift; sourceTree = "<group>"; };
+		24C215B51E1D0E0D00DE287D /* athleticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = athleticsViewController.swift; sourceTree = "<group>"; };
+		24C215B71E1D0E2A00DE287D /* sagehenAthletics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sagehenAthletics.swift; sourceTree = "<group>"; };
+		24C215B91E1D0E3700DE287D /* CMSAthletics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMSAthletics.swift; sourceTree = "<group>"; };
+		24C674131E179B38002B4417 /* blue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blue.jpg; path = "5C Friend-2/background:misc./blue.jpg"; sourceTree = "<group>"; };
+		24C674141E179B38002B4417 /* staghenLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = staghenLarge.png; path = "5C Friend-2/background:misc./staghenLarge.png"; sourceTree = "<group>"; };
+		24E35A8C1E1E538D00012D4B /* ImageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
+		24E4D17B1E1F288C00166D08 /* linksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = linksViewController.swift; sourceTree = "<group>"; };
+		24E4D17D1E1F28A000166D08 /* claremontCash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = claremontCash.swift; sourceTree = "<group>"; };
+		24E4D17F1E1F28B400166D08 /* library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = library.swift; sourceTree = "<group>"; };
+		24E4D1811E1F28C300166D08 /* claremontVillage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = claremontVillage.swift; sourceTree = "<group>"; };
+		24E4D1831E1F28EA00166D08 /* laMetro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = laMetro.swift; sourceTree = "<group>"; };
+		24EBB04F1E13F05E00F0742B /* aboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +88,7 @@
 		2465CCF81E0F68B500A674BD = {
 			isa = PBXGroup;
 			children = (
+				2465CD2C1E0F898F00A674BD /* Photos */,
 				2465CD031E0F68B500A674BD /* 5C Friend-2 */,
 				2465CD021E0F68B500A674BD /* Products */,
 			);
@@ -56,12 +107,101 @@
 			children = (
 				2465CD041E0F68B500A674BD /* AppDelegate.swift */,
 				2465CD061E0F68B500A674BD /* ViewController.swift */,
-				2465CD081E0F68B500A674BD /* Main.storyboard */,
+				24EBB0291E13CA5900F0742B /* Menu Feature */,
+				24669CF11E106A0900CDC2B4 /* Maps Feature */,
+				24EBB03B1E13DE4200F0742B /* News Feature */,
+				24EBB04A1E13E7C500F0742B /* Links Feature */,
+				24EBB0341E13DC3400F0742B /* Athletics Feature */,
+				24EBB0511E13F06400F0742B /* About */,
 				2465CD0B1E0F68B500A674BD /* Assets.xcassets */,
+				2465CD081E0F68B500A674BD /* Main.storyboard */,
 				2465CD0D1E0F68B500A674BD /* LaunchScreen.storyboard */,
 				2465CD101E0F68B500A674BD /* Info.plist */,
 			);
 			path = "5C Friend-2";
+			sourceTree = "<group>";
+		};
+		2465CD2C1E0F898F00A674BD /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				24C674181E179B4B002B4417 /* background/misc */,
+				242B55B61E170E5B005D579A /* schoolMaps */,
+				242B55B41E170E4E005D579A /* newsLogos */,
+				242B55B21E170E49005D579A /* mapCells */,
+				242B55B01E170E44005D579A /* mainMenuIcons */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+		24669CF11E106A0900CDC2B4 /* Maps Feature */ = {
+			isa = PBXGroup;
+			children = (
+				2465E3071E1062F600C0CC31 /* mapsViewController.swift */,
+				2465CD691E0FD9C300A674BD /* imageViewController.swift */,
+				24E35A8C1E1E538D00012D4B /* ImageScrollView.swift */,
+				2465CD671E0FD9A100A674BD /* mapCollectionViewCell.swift */,
+			);
+			name = "Maps Feature";
+			sourceTree = "<group>";
+		};
+		24C674181E179B4B002B4417 /* background/misc */ = {
+			isa = PBXGroup;
+			children = (
+				24C674131E179B38002B4417 /* blue.jpg */,
+				24C674141E179B38002B4417 /* staghenLarge.png */,
+			);
+			name = background/misc;
+			sourceTree = "<group>";
+		};
+		24EBB0291E13CA5900F0742B /* Menu Feature */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Menu Feature";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		24EBB0341E13DC3400F0742B /* Athletics Feature */ = {
+			isa = PBXGroup;
+			children = (
+				24C215B51E1D0E0D00DE287D /* athleticsViewController.swift */,
+				24C215B71E1D0E2A00DE287D /* sagehenAthletics.swift */,
+				24C215B91E1D0E3700DE287D /* CMSAthletics.swift */,
+			);
+			name = "Athletics Feature";
+			sourceTree = "<group>";
+		};
+		24EBB03B1E13DE4200F0742B /* News Feature */ = {
+			isa = PBXGroup;
+			children = (
+				2403E46C1E1F0F6900CADF7F /* newsViewController.swift */,
+				2403E46E1E1F0F9300CADF7F /* theStudentLife.swift */,
+				2403E4701E1F0F9E00CADF7F /* thePeel.swift */,
+				2424D2C61E1FA3B2001FC006 /* cmcForum.swift */,
+				2403E4741E1F0FC800CADF7F /* theMuddraker.swift */,
+				2424D2C81E1FA3C5001FC006 /* scrippsVoice.swift */,
+			);
+			name = "News Feature";
+			sourceTree = "<group>";
+		};
+		24EBB04A1E13E7C500F0742B /* Links Feature */ = {
+			isa = PBXGroup;
+			children = (
+				24E4D17B1E1F288C00166D08 /* linksViewController.swift */,
+				24E4D17D1E1F28A000166D08 /* claremontCash.swift */,
+				24E4D17F1E1F28B400166D08 /* library.swift */,
+				24E4D1811E1F28C300166D08 /* claremontVillage.swift */,
+				24E4D1831E1F28EA00166D08 /* laMetro.swift */,
+			);
+			name = "Links Feature";
+			sourceTree = "<group>";
+		};
+		24EBB0511E13F06400F0742B /* About */ = {
+			isa = PBXGroup;
+			children = (
+				24EBB04F1E13F05E00F0742B /* aboutViewController.swift */,
+			);
+			name = About;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +236,8 @@
 				TargetAttributes = {
 					2465CD001E0F68B500A674BD = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = KF29YMGV9R;
+						DevelopmentTeam = 6T3MYC37M2;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,6 +266,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2465CD0F1E0F68B500A674BD /* LaunchScreen.storyboard in Resources */,
+				242B55B11E170E44005D579A /* mainMenuIcons in Resources */,
+				242B55B71E170E5B005D579A /* schoolMaps in Resources */,
+				24C674161E179B38002B4417 /* staghenLarge.png in Resources */,
+				242B55B51E170E4E005D579A /* newsLogos in Resources */,
+				242B55B31E170E49005D579A /* mapCells in Resources */,
+				24C674151E179B38002B4417 /* blue.jpg in Resources */,
 				2465CD0C1E0F68B500A674BD /* Assets.xcassets in Resources */,
 				2465CD0A1E0F68B500A674BD /* Main.storyboard in Resources */,
 			);
@@ -137,8 +284,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24C215B61E1D0E0D00DE287D /* athleticsViewController.swift in Sources */,
+				2424D2C91E1FA3C5001FC006 /* scrippsVoice.swift in Sources */,
 				2465CD071E0F68B500A674BD /* ViewController.swift in Sources */,
+				24E4D1821E1F28C300166D08 /* claremontVillage.swift in Sources */,
 				2465CD051E0F68B500A674BD /* AppDelegate.swift in Sources */,
+				2403E46F1E1F0F9300CADF7F /* theStudentLife.swift in Sources */,
+				2465CD681E0FD9A100A674BD /* mapCollectionViewCell.swift in Sources */,
+				2465E3081E1062F600C0CC31 /* mapsViewController.swift in Sources */,
+				24C215B81E1D0E2A00DE287D /* sagehenAthletics.swift in Sources */,
+				24E4D17E1E1F28A000166D08 /* claremontCash.swift in Sources */,
+				24E4D17C1E1F288C00166D08 /* linksViewController.swift in Sources */,
+				2465CD6A1E0FD9C300A674BD /* imageViewController.swift in Sources */,
+				2403E46D1E1F0F6900CADF7F /* newsViewController.swift in Sources */,
+				2424D2C71E1FA3B2001FC006 /* cmcForum.swift in Sources */,
+				24E4D1801E1F28B400166D08 /* library.swift in Sources */,
+				24E4D1841E1F28EA00166D08 /* laMetro.swift in Sources */,
+				2403E4751E1F0FC800CADF7F /* theMuddraker.swift in Sources */,
+				2403E4711E1F0F9E00CADF7F /* thePeel.swift in Sources */,
+				24C215BA1E1D0E3700DE287D /* CMSAthletics.swift in Sources */,
+				24E35A8D1E1E538D00012D4B /* ImageScrollView.swift in Sources */,
+				24EBB0501E13F05E00F0742B /* aboutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KF29YMGV9R;
+				DEVELOPMENT_TEAM = 6T3MYC37M2;
 				INFOPLIST_FILE = "5C Friend-2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.parthmdesai.5CFriend-2.-C-Friend-2";
@@ -272,7 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KF29YMGV9R;
+				DEVELOPMENT_TEAM = 6T3MYC37M2;
 				INFOPLIST_FILE = "5C Friend-2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.parthmdesai.5CFriend-2.-C-Friend-2";
@@ -300,6 +466,7 @@
 				2465CD151E0F68B500A674BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
