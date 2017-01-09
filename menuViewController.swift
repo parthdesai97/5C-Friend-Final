@@ -1,19 +1,19 @@
 //
-//  newsViewController.swift
+//  menuViewController.swift
 //  5C Friend-2
 //
-//  Created by Parth Desai on 1/5/17.
+//  Created by Parth Desai on 1/8/17.
 //  Copyright © 2017 Parth Desai. All rights reserved.
 //
 
 import UIKit
 
-class newsViewController: UIViewController {
+class menuViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationItem.title = "News"
+        self.navigationItem.title = "Menus"
         self.navigationController?.navigationBar.tintColor = UIColor.white
         self.navigationController?.navigationBar.barStyle = UIBarStyle.blackOpaque
 

@@ -1,49 +1,33 @@
 //
-//  ViewController.swift
+//  pitzerViewController.swift
 //  5C Friend-2
 //
-//  Created by Parth Desai on 12/24/16.
-//  Copyright © 2016 Parth Desai. All rights reserved.
+//  Created by Parth Desai on 1/8/17.
+//  Copyright © 2017 Parth Desai. All rights reserved.
 //
 
 import UIKit
 
-
-
-class ViewController: UIViewController {
+class pitzerViewController: UIViewController {
     
     var jsonData: AnyObject?
-  
 
-    @IBOutlet weak var currentDate: UILabel!
-    
-    @IBOutlet weak var currentWeather: UILabel!
-
-
-    
+    @IBOutlet weak var pitzerMenu: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationItem.title = "5C Friend"
+        self.navigationItem.title = "Pitzer Menu"
         self.navigationController?.navigationBar.tintColor = UIColor.white
         self.navigationController?.navigationBar.barStyle = UIBarStyle.blackOpaque
         
-        // Current date getter
-        
-        let date = Date()
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateStyle = DateFormatter.Style.full
-        let convertedDate = dateFormatter.string(from: date)
-        currentDate.text = "Today is" + "\n" + convertedDate
-        
-        // Current weather getter - wow 
+        // Current weather getter - wow
         
         getWeatherData(urlString: "http://api.openweathermap.org/data/2.5/weather?q=Claremont,US&APPID=4fca460e7737f772e53ec05932694761")
     }
     
     
-        override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
@@ -68,10 +52,10 @@ class ViewController: UIViewController {
                                      message: "The weather service isn't responding.")
             }
         }
-
+        
         if let main = jsonData!["main"] as? NSDictionary {
             if let temp = main["temp"] as? Double {
-                self.currentWeather.text = "Temp in Claremont:" + "\n" + String(format: "%.0f", (temp - 273.15) * 1.8 + 32) + "˚ F " + "(" + String(format: "%.0f", temp - 273.15) + "˚ C)"
+                self.pitzerMenu.text = "Temp in Claremont:" + "\n" + String(format: "%.0f", (temp - 273.15) * 1.8 + 32) + "˚ F " + "(" + String(format: "%.0f", temp - 273.15) + "˚ C)"
             }
         }
     }
@@ -96,3 +80,4 @@ class ViewController: UIViewController {
     }
     
 }
+

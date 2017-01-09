@@ -21,6 +21,10 @@ class scrippsVoice: UIViewController, WKNavigationDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        self.navigationItem.title = "Scripps Voice"
+        self.navigationController?.navigationBar.tintColor = UIColor.white
+        self.navigationController?.navigationBar.barStyle = UIBarStyle.blackOpaque
+        
         webView = WKWebView()
         
         scrippsVoiceContainer.addSubview(webView)

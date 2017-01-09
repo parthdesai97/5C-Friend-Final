@@ -2,8 +2,8 @@
 //  aboutViewController.swift
 //  5C Friend-2
 //
-//  Created by Parth Desai on 12/28/16.
-//  Copyright © 2016 Parth Desai. All rights reserved.
+//  Created by Parth Desai on 1/7/17.
+//  Copyright © 2017 Parth Desai. All rights reserved.
 //
 
 import UIKit
@@ -12,11 +12,11 @@ class aboutViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
         self.navigationItem.title = "About"
         self.navigationController?.navigationBar.tintColor = UIColor.white
         self.navigationController?.navigationBar.barStyle = UIBarStyle.blackOpaque
+
 
         // Do any additional setup after loading the view.
     }

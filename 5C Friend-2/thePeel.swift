@@ -21,6 +21,10 @@ class thePeel: UIViewController, WKNavigationDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        self.navigationItem.title = "The Peel"
+        self.navigationController?.navigationBar.tintColor = UIColor.white
+        self.navigationController?.navigationBar.barStyle = UIBarStyle.blackOpaque
+        
         webView = WKWebView()
         
         thePeelContainer.addSubview(webView)

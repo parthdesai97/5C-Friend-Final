@@ -22,14 +22,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5C Friend!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="71H-1l-iy4">
-                                <rect key="frame" x="16" y="71" width="343" height="66"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="43"/>
-                                <color key="textColor" red="0.99872965926521085" green="0.99857875576199762" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created by Parth Desai" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qa-R7-Ckb">
-                                <rect key="frame" x="16" y="604" width="343" height="21"/>
+                                <rect key="frame" x="16" y="626" width="343" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
                                 <color key="textColor" red="0.99872965930000002" green="0.9985787558" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -37,20 +31,25 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="staghenLarge.png" translatesAutoresizingMaskIntoConstraints="NO" id="7p4-q1-7KQ">
                                 <rect key="frame" x="16" y="244" width="343" height="178"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5C Friend!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="71H-1l-iy4">
+                                <rect key="frame" x="16" y="60" width="343" height="51"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="43"/>
+                                <color key="textColor" red="0.99872965926521085" green="0.99857875576199762" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.27259811760000002" green="0.55712068079999999" blue="0.96870791909999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="7p4-q1-7KQ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="5Pv-I4-uy7"/>
-                            <constraint firstItem="71H-1l-iy4" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="51" id="79G-LG-i9h"/>
-                            <constraint firstItem="71H-1l-iy4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="8Rt-lj-04Y"/>
-                            <constraint firstItem="8qa-R7-Ckb" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="9E8-ia-xdf"/>
-                            <constraint firstItem="8qa-R7-Ckb" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="CON-Ke-pMV"/>
+                            <constraint firstItem="71H-1l-iy4" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="40" id="Dt4-0W-FW1"/>
+                            <constraint firstItem="71H-1l-iy4" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="FG2-PU-wgW"/>
+                            <constraint firstItem="8qa-R7-Ckb" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="JHr-Wl-9H0"/>
+                            <constraint firstItem="71H-1l-iy4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="N5I-Eg-zf8"/>
                             <constraint firstItem="7p4-q1-7KQ" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="Wtl-d4-s63"/>
+                            <constraint firstItem="8qa-R7-Ckb" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="giO-Dy-M8N"/>
                             <constraint firstItem="7p4-q1-7KQ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="hrV-8u-XQQ"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="8qa-R7-Ckb" secondAttribute="bottom" constant="20" id="oKQ-93-1Lk"/>
                             <constraint firstItem="7p4-q1-7KQ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="oaU-ac-aFg"/>
-                            <constraint firstItem="71H-1l-iy4" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="ram-MF-aX6"/>
-                            <constraint firstItem="7p4-q1-7KQ" firstAttribute="top" secondItem="71H-1l-iy4" secondAttribute="bottom" constant="107" id="sZW-zD-nMc"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="8qa-R7-Ckb" secondAttribute="bottom" constant="42" id="waP-Cj-2Mx"/>
                         </constraints>
                     </view>
                 </viewController>

@@ -20,6 +20,10 @@ class CMSAthletics: UIViewController, WKNavigationDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        self.navigationItem.title = "CMS Athletics"
+        self.navigationController?.navigationBar.tintColor = UIColor.white
+        self.navigationController?.navigationBar.barStyle = UIBarStyle.blackOpaque
+        
         webView = WKWebView()
         container.addSubview(webView)
         

@@ -21,6 +21,10 @@ class theStudentLife: UIViewController, WKNavigationDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        self.navigationItem.title = "The Student Life"
+        self.navigationController?.navigationBar.tintColor = UIColor.white
+        self.navigationController?.navigationBar.barStyle = UIBarStyle.blackOpaque
+        
         webView = WKWebView()
         
         theStudentLifeContainer.addSubview(webView)
