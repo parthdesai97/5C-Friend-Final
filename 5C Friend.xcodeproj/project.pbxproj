@@ -11,8 +11,6 @@
 		2403E46F1E1F0F9300CADF7F /* theStudentLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2403E46E1E1F0F9300CADF7F /* theStudentLife.swift */; };
 		2403E4711E1F0F9E00CADF7F /* thePeel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2403E4701E1F0F9E00CADF7F /* thePeel.swift */; };
 		2403E4751E1F0FC800CADF7F /* theMuddraker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2403E4741E1F0FC800CADF7F /* theMuddraker.swift */; };
-		2412B5911E2376A2002C813B /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2412B58F1E2376A2002C813B /* libxml2.2.tbd */; };
-		2412B5921E2376A2002C813B /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2412B5901E2376A2002C813B /* libxml2.tbd */; };
 		2424D2C71E1FA3B2001FC006 /* cmcForum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2424D2C61E1FA3B2001FC006 /* cmcForum.swift */; };
 		2424D2C91E1FA3C5001FC006 /* scrippsVoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2424D2C81E1FA3C5001FC006 /* scrippsVoice.swift */; };
 		242B55B11E170E44005D579A /* mainMenuIcons in Resources */ = {isa = PBXBuildFile; fileRef = 242B55B01E170E44005D579A /* mainMenuIcons */; };
@@ -54,8 +52,6 @@
 		2403E46E1E1F0F9300CADF7F /* theStudentLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = theStudentLife.swift; sourceTree = "<group>"; };
 		2403E4701E1F0F9E00CADF7F /* thePeel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thePeel.swift; sourceTree = "<group>"; };
 		2403E4741E1F0FC800CADF7F /* theMuddraker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = theMuddraker.swift; sourceTree = "<group>"; };
-		2412B58F1E2376A2002C813B /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
-		2412B5901E2376A2002C813B /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		2424D2C61E1FA3B2001FC006 /* cmcForum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cmcForum.swift; sourceTree = "<group>"; };
 		2424D2C81E1FA3C5001FC006 /* scrippsVoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scrippsVoice.swift; sourceTree = "<group>"; };
 		242B55B01E170E44005D579A /* mainMenuIcons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = mainMenuIcons; path = "5C Friend-2/mainMenuIcons"; sourceTree = "<group>"; };
@@ -69,7 +65,7 @@
 		243A52CC1E22364A00F99C45 /* muddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = muddViewController.swift; sourceTree = "<group>"; };
 		243A52CE1E22365100F99C45 /* cmcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cmcViewController.swift; sourceTree = "<group>"; };
 		243A52D01E22FB9000F99C45 /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
-		2465CD011E0F68B500A674BD /* 5C Friend-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5C Friend-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2465CD011E0F68B500A674BD /* 5C Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "5C Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2465CD041E0F68B500A674BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2465CD061E0F68B500A674BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2465CD091E0F68B500A674BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -99,42 +95,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2412B5911E2376A2002C813B /* libxml2.2.tbd in Frameworks */,
-				2412B5921E2376A2002C813B /* libxml2.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2412B58E1E2376A2002C813B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2412B58F1E2376A2002C813B /* libxml2.2.tbd */,
-				2412B5901E2376A2002C813B /* libxml2.tbd */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		2465CCF81E0F68B500A674BD = {
 			isa = PBXGroup;
 			children = (
 				2465CD2C1E0F898F00A674BD /* Photos */,
-				2465CD031E0F68B500A674BD /* 5C Friend-2 */,
+				2465CD031E0F68B500A674BD /* 5C Friend */,
 				2465CD021E0F68B500A674BD /* Products */,
-				2412B58E1E2376A2002C813B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		2465CD021E0F68B500A674BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2465CD011E0F68B500A674BD /* 5C Friend-2.app */,
+				2465CD011E0F68B500A674BD /* 5C Friend.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2465CD031E0F68B500A674BD /* 5C Friend-2 */ = {
+		2465CD031E0F68B500A674BD /* 5C Friend */ = {
 			isa = PBXGroup;
 			children = (
 				2465CD041E0F68B500A674BD /* AppDelegate.swift */,
@@ -150,6 +134,7 @@
 				2465CD0D1E0F68B500A674BD /* LaunchScreen.storyboard */,
 				2465CD101E0F68B500A674BD /* Info.plist */,
 			);
+			name = "5C Friend";
 			path = "5C Friend-2";
 			sourceTree = "<group>";
 		};
@@ -247,9 +232,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2465CD001E0F68B500A674BD /* 5C Friend-2 */ = {
+		2465CD001E0F68B500A674BD /* 5C Friend */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2465CD131E0F68B500A674BD /* Build configuration list for PBXNativeTarget "5C Friend-2" */;
+			buildConfigurationList = 2465CD131E0F68B500A674BD /* Build configuration list for PBXNativeTarget "5C Friend" */;
 			buildPhases = (
 				2465CCFD1E0F68B500A674BD /* Sources */,
 				2465CCFE1E0F68B500A674BD /* Frameworks */,
@@ -259,9 +244,9 @@
 			);
 			dependencies = (
 			);
-			name = "5C Friend-2";
+			name = "5C Friend";
 			productName = "5C Friend-2";
-			productReference = 2465CD011E0F68B500A674BD /* 5C Friend-2.app */;
+			productReference = 2465CD011E0F68B500A674BD /* 5C Friend.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -276,13 +261,18 @@
 				TargetAttributes = {
 					2465CD001E0F68B500A674BD = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 6T3MYC37M2;
+						DevelopmentTeam = KF29YMGV9R;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
-			buildConfigurationList = 2465CCFC1E0F68B500A674BD /* Build configuration list for PBXProject "5C Friend-2" */;
+			buildConfigurationList = 2465CCFC1E0F68B500A674BD /* Build configuration list for PBXProject "5C Friend" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -295,7 +285,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2465CD001E0F68B500A674BD /* 5C Friend-2 */,
+				2465CD001E0F68B500A674BD /* 5C Friend */,
 			);
 		};
 /* End PBXProject section */
@@ -474,14 +464,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 6T3MYC37M2;
-				"HEADER_SEARCH_PATHS[arch=*]" = "$(SDKROOT)/usr/include/libxml2";
+				DEVELOPMENT_TEAM = KF29YMGV9R;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "5C Friend-2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				"OTHER_LDFLAGS[arch=*]" = "-lxml2";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.parthmdesai.5CFriend-2.-C-Friend-2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parth-m-desai.5CFriend-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "5C Friend-2-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -492,14 +481,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 6T3MYC37M2;
-				"HEADER_SEARCH_PATHS[arch=*]" = "$(SDKROOT)/usr/include/libxml2";
+				DEVELOPMENT_TEAM = KF29YMGV9R;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "5C Friend-2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				"OTHER_LDFLAGS[arch=*]" = "-lxml2";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.parthmdesai.5CFriend-2.-C-Friend-2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.parth-m-desai.5CFriend-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "5C Friend-2-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -507,7 +495,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2465CCFC1E0F68B500A674BD /* Build configuration list for PBXProject "5C Friend-2" */ = {
+		2465CCFC1E0F68B500A674BD /* Build configuration list for PBXProject "5C Friend" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2465CD111E0F68B500A674BD /* Debug */,
@@ -516,7 +504,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2465CD131E0F68B500A674BD /* Build configuration list for PBXNativeTarget "5C Friend-2" */ = {
+		2465CD131E0F68B500A674BD /* Build configuration list for PBXNativeTarget "5C Friend" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2465CD141E0F68B500A674BD /* Debug */,

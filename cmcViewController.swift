@@ -7,78 +7,60 @@
 //
 
 import UIKit
+import WebKit
 
-class cmcViewController: UIViewController {
+class cmcViewController: UIViewController, WKNavigationDelegate {
     
-    var jsonData: AnyObject?
+    @IBOutlet weak var cmcContainer: UIView!
     
-    @IBOutlet weak var cmcMenu: UITextView!
+    var webView: WKWebView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
         
-        self.navigationItem.title = "Claremont McKenna Menu"
+        self.navigationItem.title = "Collins"
         self.navigationController?.navigationBar.tintColor = UIColor.white
         self.navigationController?.navigationBar.barStyle = UIBarStyle.blackOpaque
-
         
-        // Current weather getter - wow
+        webView = WKWebView()
         
-        getWeatherData(urlString: "http://api.openweathermap.org/data/2.5/weather?q=Claremont,US&APPID=4fca460e7737f772e53ec05932694761")
+        cmcContainer.addSubview(webView)
+        
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        
+        self.webView.navigationDelegate = self
+        
+        let frame = CGRect(x: 0 , y: 0  , width: cmcContainer.bounds.width, height: cmcContainer.bounds.height)
+        webView.frame = frame
+        
+        loadRequest(urlString: "https://aspc.pomona.edu/menu/#cmc_menu")
+        
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    func getWeatherData(urlString: String) {
-        let url = URL(string: urlString)
-        
-        let task = URLSession.shared.dataTask(with: url! as URL) {(data, response, error) in
-            DispatchQueue.main.async(execute: {
-                self.setLabels(weatherData: data! as NSData)
-            })
-        }
-        task.resume()
+    
+    func loadRequest(urlString: String) {
+        let url = URL(string: urlString)!
+        let request = URLRequest(url: url)
+        webView.load(request)
     }
     
-    func setLabels(weatherData: NSData) {
-        do {
-            self.jsonData = try JSONSerialization.jsonObject(with: weatherData as Data, options: []) as! NSDictionary
-        } catch {
-            DispatchQueue.main.async {
-                self.showSimpleAlert(title: "Can't get the weather",
-                                     message: "The weather service isn't responding.")
-            }
-        }
-        
-        if let main = jsonData!["main"] as? NSDictionary {
-            if let temp = main["temp"] as? Double {
-                self.cmcMenu.text = "Temp in Claremont:" + "\n" + String(format: "%.0f", (temp - 273.15) * 1.8 + 32) + "˚ F " + "(" + String(format: "%.0f", temp - 273.15) + "˚ C)"
-            }
-        }
+    
+    func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
+        UIApplication.shared.isNetworkActivityIndicatorVisible = true
     }
     
-    func showSimpleAlert(title: String, message: String) {
-        let alert = UIAlertController(
-            title: title,
-            message: message,
-            preferredStyle: .alert
-        )
-        let okAction = UIAlertAction(
-            title: "OK",
-            style:  .default,
-            handler: nil
-        )
-        alert.addAction(okAction)
-        present(
-            alert,
-            animated: true,
-            completion: nil
-        )
+    
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        UIApplication.shared.isNetworkActivityIndicatorVisible = false
     }
     
 }
-

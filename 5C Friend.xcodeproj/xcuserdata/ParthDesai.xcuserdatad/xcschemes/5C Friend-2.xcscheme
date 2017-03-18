@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2465CD001E0F68B500A674BD"
-               BuildableName = "5C Friend-2.app"
-               BlueprintName = "5C Friend-2"
-               ReferencedContainer = "container:5C Friend-2.xcodeproj">
+               BuildableName = "5C Friend.app"
+               BlueprintName = "5C Friend"
+               ReferencedContainer = "container:5C Friend.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2465CD001E0F68B500A674BD"
-            BuildableName = "5C Friend-2.app"
-            BlueprintName = "5C Friend-2"
-            ReferencedContainer = "container:5C Friend-2.xcodeproj">
+            BuildableName = "5C Friend.app"
+            BlueprintName = "5C Friend"
+            ReferencedContainer = "container:5C Friend.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2465CD001E0F68B500A674BD"
-            BuildableName = "5C Friend-2.app"
-            BlueprintName = "5C Friend-2"
-            ReferencedContainer = "container:5C Friend-2.xcodeproj">
+            BuildableName = "5C Friend.app"
+            BlueprintName = "5C Friend"
+            ReferencedContainer = "container:5C Friend.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2465CD001E0F68B500A674BD"
-            BuildableName = "5C Friend-2.app"
-            BlueprintName = "5C Friend-2"
-            ReferencedContainer = "container:5C Friend-2.xcodeproj">
+            BuildableName = "5C Friend.app"
+            BlueprintName = "5C Friend"
+            ReferencedContainer = "container:5C Friend.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

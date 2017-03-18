@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         
         // Current weather getter - wow 
         
-        getWeatherData(urlString: "http://api.openweathermap.org/data/2.5/weather?q=Claremont,US&APPID=4fca460e7737f772e53ec05932694761")
+        getWeatherData(urlString: "http://api.openweathermap.org/data/2.5/weather?q=Claremont-CA&APPID=4fca460e7737f772e53ec05932694761")
     }
     
     
@@ -71,7 +71,8 @@ class ViewController: UIViewController {
 
         if let main = jsonData!["main"] as? NSDictionary {
             if let temp = main["temp"] as? Double {
-                self.currentWeather.text = "Temp in Claremont:" + "\n" + String(format: "%.0f", (temp - 273.15) * 1.8 + 32) + "˚ F " + "(" + String(format: "%.0f", temp - 273.15) + "˚ C)"
+                self.currentWeather.text = "Temp in Claremont:" + "\n" + String(format: "%.0f", temp * 1.8 - 449.67) + "˚ F " + "(" + String(format: "%.0f", temp - 273.15) + "˚ C)"
+
             }
         }
     }
